@@ -1,0 +1,57 @@
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+    img,
+  picture,
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .wrapper {
+    width: min(calc(100% - 48px), calc(1200 / 16 * 1rem));
+    margin-inline: auto;
+    padding-block: 60px;
+
+    @media (width >= calc(1000 / 16 * 1rem)) {
+      padding-block: 80px;
+    }
+  }
+
+  .hero {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  
+
+  } 
+
+  a {
+    text-decoration: none;
+    font-family: Instrument Serif, serif;
+  }
+
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    list-style: none; 
+  }
+
+  .footer-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+  } 
