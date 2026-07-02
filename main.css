@@ -39,13 +39,51 @@
     font-family: Instrument Serif, serif;
   }
 
-
-  .nav-links {
+  nav {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #818181;
+  }
+
+
+ nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #818181;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
     align-items: center;
-    list-style: none; 
+    justify-content: space-between;
+  }
+
+.logo {
+    height: 100%;
+    width: 80px;
+  }
+
+  .nav-bar .nav-links {
+     display: flex;
+    align-items: center;
+  }
+
+  .nav-bar .nav-links li {
+    margin: 0 5px;
+    list-style: none;
+  }
+
+  .nav-links li a {
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
   }
 
   .footer-links {
